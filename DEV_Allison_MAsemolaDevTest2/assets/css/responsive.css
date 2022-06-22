@@ -1,61 +1,220 @@
 @media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) {
+and (max-width : 400px) {
   *{
     overflow-x: hidden;
     margin: 0;
     padding: 0;
   }
-  .header{
-    height: 900px;
-    margin-top: 100px;
+  .header header .hero .wrapper{
+    position: relative;
+    display: block;
+  }
+  .header header .hero .wrapper .header-heading{
+    font-size: 10px;
+
+  }
+  .header header .hero .wrapper h1{
+    font-size: 10px;
+    letter-spacing: 0px;
+  }
+  .header header .hero .wrapper h1 span{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0px;
+  }
+  .header header .hero .wrapper p{
+    font-size: 10px;
   }
   .header{
-    height: 100vh;
-    background: linear-gradient(180deg, #194D41 0%, rgba(25, 77, 65, 0.7) 100%);
-    overflow-y: hidden;
+    background-image: url(../images/header/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 960px;
     width: 100%;
-  }
-  .hero-form{
-    overflow-y: hidden;
-    width: 100%;
-    height: 100vh;
-    margin-top: 100px;
     
-  }
-  .hero{
-    position: absolute;
-    width: 100%;
-    /* height: 376px; */
   }
   .header-heading{
     /* position: absolute; */
     text-align: center;
     font-family: 'Montserrat';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 44px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 44px;
   }
-  .header-image img{
+  /* .header-image img{
     visibility: hidden;
-  }
+  } */
   .wrapper{
     font-family: 'Montserrat';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
 
-position: absolute;
-width: 328px;
-height: 144px;
-left: 16px;
-top: 184px;
+    position: absolute;
+    width: 328px;
+    height: 144px;
+    left: 16px;
+    top: 184px;
+  }
+  .hero{
+    position: absolute;
+    width: 100%;
+    height: auto;
+  }
+  .hero-form{
+    overflow-y: hidden;
+    width: 328px;
+    height: 87vh;
+    margin-top: 100px;
+    position: relative;
+  }
+  .hero-form input{
+    width: 260px;
+  }
+  .hero-form  select{
+    width: 260px;
+  }
+  .hero-form  button{
+    margin: 50px 0px 0px 20px;
+    width: 200px;
+  }
+  /* 
+    =================================================
+      ABOUT
+    =================================================
+  */
+  .about{
+    margin-top: 0;
+  }
+  .about .cover img{
+    display: none;
+  }
+
+  /* 
+    =================================================
+      TESTIMONIES
+    =================================================
+  */
+  .testimonies{
+    margin-top: 100px;
+  }
+  .testimonies .slide{
+    display: block;
+    width: 100%;
   }
 
 
+  footer {
+    display: block;
+    padding: 0;
+    height: auto;
+    width: 673px;
+  }
+  footer .left-section{
+    height: 359.9999694824222px;
+    width: 573.0000000000006px;
+    left: 360px;
+    top: 3935px;
+    border-radius: 0px;
+    margin-left: -100px;
+    inline-size: 573.0000000000006px;
+    overflow-wrap: break-word;
+    /* overflow-y: hidden; */
+  }
+  footer .right-section{
+    height: 305.92596435546875px;
+    width: 362.88385009765625px;
+    left: -2.8837890625px;
+    top: 4542.036865234375px;
+    border-radius: 4px;
+    margin-top: 100px;
+  }
+  footer .left-section h1{
+    height: 96px;
+    width: 328px;
+    top: 4015px;
+    text-align: center;
+    width: 328px;
+    height: 96px;
+    left: 16px;
+    /* top: 4015px; */
 
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+
+    align-items: center;
+  }
+  footer .sub-heading h4{
+    height: 24px;
+    width: 294px;
+    left: 50px;
+    top: 4147px;
+
+  }
+  footer .sub-heading h4 i{
+    width: 17.6px;
+    height: 13.4px;
+    left: 16px;
+    top: 4153px;
+    color: #5BC8AF;
+  }
+  footer .footer-text{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 573.0000000000006px;
+  }
+  footer .footer-text p{
+    word-break: break-all;
+    width: 100%;
+    width: 294px;
+    height: 96px;
+    left: 50px;
+    top: 4179px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  footer .play-img a img{
+    margin: -100px;
+  }
 
 
 }
+
+@media screen and (min-width: 401px)
+    and (max-width: 800px){
+
+    header .hero{
+      display: block;
+      width: 100%;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  }
